@@ -13,7 +13,7 @@ import com.demo.ecommerce.model.Image;
 import com.demo.ecommerce.service.BooksService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://angular-heroku-frontend.herokuapp.com/")
 @RequestMapping(path = "books")
 public class BooksController {
 
